@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: bpdots;
+    src: url(BPDOTS.OTF);
+}
+@font-face {
+    font-family: gilroy;
+    src: url(GILROY-REGULAR.TTF);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+.title {
+    font-family: bpdots;
+    font-weight: 400;
+}
