@@ -10,7 +10,7 @@ function App() {
         JSON.parse(localStorage.getItem("lastCode")) || {
             html: "Hello World",
             css: `*{color:rgb(253 224 71);
-    font-family: Gilroy;}`,
+            margin:0px}`,
             js: "",
         }
     );
@@ -36,9 +36,9 @@ function App() {
     }, [activeLanguage]);
 
     return (
-        <div className="p-8 bg-[rgb(20,20,20)] h-screen grid  grid-rows-[min-content_1fr]">
+        <div className="p-8 bg-black h-screen grid  grid-rows-[min-content_1fr] gap-12">
             <h1 className="text-4xl font-bold mb-8 text-yellow-300 title">
-                Frontend Builder
+                Frontend Builder.
             </h1>
             <div className="grid grid-cols-2 gap-4">
                 {/* <ActiveLanguage
