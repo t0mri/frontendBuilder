@@ -3,21 +3,20 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: bpdots;
+    font-family: bold;
     src: url(assets/Helvetica-Bold.ttf);
 }
 @font-face {
-    font-family: gilroy;
-    src: url(GILROY-REGULAR.TTF);
+    font-family: regular;
+    src: url(assets/Helvetica.ttf);
 }
 
 * {
     box-sizing: border-box;
-    font-family: gilroy;
-    color: white;
+    font-family: regular;
 }
 .title {
-    font-family: bpdots;
+    font-family: bold;
     font-weight: 700;
     font-size: 5rem;
     margin: 1rem 0;
